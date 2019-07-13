@@ -23,7 +23,7 @@
         <!-- <div class="search">
           <i class="fa fa-search"></i>
           <input placeholder="搜索" />
-        </div> -->
+        </div>-->
       </div>
     </div>
     <div class="content">
@@ -52,8 +52,8 @@
               <h6 class="ellipsis">{{ item.des }}</h6>
             </div>
             <div class="right">
-              <a class="share"
-                >图集
+              <a class="share">
+                图集
                 <!-- <i class="fa fa-share-alt"></i>分享 -->
                 <!-- <i class="fa fa-heart"></i> -->
               </a>
@@ -126,10 +126,11 @@ export default {
       justify-content: flex-start;
       align-items: center;
       .logo {
-        display:flex;
-        align-items:center;
-        span{
-          padding-left:5px;
+        display: flex;
+        align-items: center;
+        span {
+          padding-left: 5px;
+          font-size: 1rem;
         }
         img {
           width: 48px;
@@ -142,6 +143,9 @@ export default {
           display: flex;
           justify-content: flex-start;
           li {
+            @media screen and (max-width: 720px) {
+              padding: 0 5px;
+            }
             padding-right: 30px;
             &:hover {
               opacity: 0.8;

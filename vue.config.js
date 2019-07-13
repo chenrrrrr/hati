@@ -1,6 +1,6 @@
 module.exports = {
   // 本地开发请注释
-  // baseUrl: "./",
+  baseUrl: "./",
   outputDir: "dist",
   configureWebpack: {
     externals: {

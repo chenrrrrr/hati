@@ -10,9 +10,7 @@
 
 ## 预览网址
 
-[https://www.chenrui.ink/hati](https://www.chenrui.ink/hati)
-
-[https://www.chenrui.ink/album](https://www.chenrui.ink/album)
+[https://www.npmrundev.com/album](https://www.npmrundev.com/album)
 
 ## 部署
 
